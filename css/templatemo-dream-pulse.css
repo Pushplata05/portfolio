@@ -45,7 +45,7 @@ a {
 }
 
 .tm-bg-white-transparent {
-  background-color: rgb(255 255 255);
+  background-color: rgb(255 255 255 / 82%);
   border: 1px solid white;
 }
 
@@ -108,15 +108,17 @@ a {
 }
 
 .tm-border-gray {
-  border-color: #cdcecf;
+  /* border-color: #cdcecf; */
 }
 
 .tm-box-pad {
-  padding: 50px 55px;
+  padding: 32px;
+  /* height: 100%; */
 }
 
 .tm-brand {
   padding: 30px;
+  color: #ffffff;
 }
 
 .tm-sidebar {
@@ -639,14 +641,14 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
   font-weight: 600;
   text-transform: uppercase;
   padding-bottom: 50px;
-  border-bottom: 1px solid #e5ebf2;
+  /* border-bottom: 1px solid #e5ebf2; */
 }
 .single-progress-txt {
   display: flex;
 }
 .single-progress-txt h3 {
   width: 10%;
-  color: #a606c3;
+  color: #2b1d35;
   position: relative;
   top: 6px;
   left: 20px;
@@ -666,8 +668,8 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
   margin-bottom: 37px;
 }
 .progress-bar {
- background: #b636ff;
-  border-radius: 3px;
+ background: #73419b;
+ border-radius: 3px;
  -webkit-transition: width 1.5s ease-in-out;
  -ms-transition: width 1.5s ease-in-out;
  -moz-transition: width 1.5s ease-in-out;
@@ -699,11 +701,11 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
       7. Experience
 -------------------------------------*/
 .experience {
-  padding: 50px 0 100px;
+  padding: 137px 32px 0px;
   border-top: 1px solid #e5ebf2;
 }
 .experience-content {padding-top: 32px;}
-.single-timeline-box {margin-bottom: 75px;}
+.single-timeline-box {margin-bottom: 0px;}
 
 /*experience-time*/
 .experience-time {
@@ -740,11 +742,12 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 }
 
 .timeline-content span>i, .experience-time span>i {
-  color: #d92cf9;
+  color: #907e94;
   position: absolute;
   font-size: 10px;
   left: -7.5%;
   z-index: 1;
+  top: 106px;
 }
 .timeline-content h4.title {
   font-size: 16px;
@@ -760,6 +763,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 .main-timeline .description {
   font-size: 14px;
   color: #999fb3;
+  visibility: hidden;
 }
 .main-timeline .timeline-content.right{
   float: right;
@@ -855,11 +859,11 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
       9. Portfolio
 --------------------------------------*/
 .portfolio {
-  padding:  50px 0 100px;
-  border:  1px solid #e5ebf2;
+  padding: 32px 0px;
+  /* border:  1px solid #e5ebf2; */
 }
 
-.portfolio-content {padding-top: 100px;}
+.portfolio-content {padding-top: 32px;}
 
 /* ---- .item ---- */
 .isotope:after {
