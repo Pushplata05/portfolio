@@ -41,11 +41,11 @@ a {
 }
 
 .tm-bg-black-transparent {
-  background-color: rgb(138 174 241 / 37%);
+  background-color: color(srgb 0.08 0.17 0.29);
 }
 
 .tm-bg-white-transparent {
-  background-color: rgb(0 0 0 / 52%);
+  background-color: #142b4a87;
   border: 1px solid white;
 }
 
@@ -74,7 +74,7 @@ a {
   align-items: center;
   height: auto;
   max-width: 1275px;
-  padding: 0px 60px;
+  padding: 32px 60px;
 }
 
 #intro {
@@ -93,12 +93,12 @@ a {
   min-height: 160px;
   color: white;
   text-align: center;
-  margin: 70px auto 90px;
+  margin: 70px auto 6px;
 }
 
 .tm-double-border-1,
 .tm-double-border-2 {
-  border: 1px solid #319297;
+  border: 1px solid #ffffff;
   position: relative;
 }
 
@@ -118,7 +118,7 @@ a {
 
 .tm-brand {
   padding: 30px;
-  color: #319297;
+  color: #ffffff;
 }
 
 .tm-sidebar {
@@ -160,6 +160,7 @@ a {
 
 .tm-main-nav > li > a {
   color: white;
+  font-weight: 500;
 }
 
 .tm-main-nav {
@@ -174,7 +175,7 @@ a {
 }
 
 .nav-link {
-  font-size: 1.25rem;
+  font-size: 1rem;
   padding-top: 12px;
   padding-bottom: 12px;
 }
@@ -448,7 +449,7 @@ opacity: 0;
 @media (min-width: 768px) {
   .testimonial-grid {
     /* grid-template-columns: 1fr 1fr; */
-    width: 50%;
+    width: 70%;
     margin: 20px auto;
   }
   .arrow-buttons {
@@ -1693,7 +1694,7 @@ a, img, time, span, input, label, select, button, textarea, ion-icon { display: 
     input, textarea { width: 100%; }
     ion-icon { pointer-events: none; }
     a { text-decoration: none; }
-:is(a, button, select) { outline-color: var(--scarlet); outline-offset: 3px; }
+:is(a, button, select) {/* outline-color: var(--scarlet); */outline-offset: 3px;}
 ::selection { background: var(--color-primary); color: var(--bg-primary); }
 html { font-family: var(--ff-roboto); }
 body { background: var(--bg-primary); transition: var(--transition-1); }
